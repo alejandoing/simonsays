@@ -21,6 +21,10 @@ body {
   margin-left: -110px;
 }
 
+.difficulties {
+  display: none
+}
+
 .key {
   animation: appear 2.5s;
   min-width: 80px;
@@ -32,6 +36,36 @@ body {
   text-align: center;
   font-size: 24px;
   transition: all ease .5s;
+}
+
+.key:hover {
+  cursor: pointer;
+  background: #0d47a1;
+}
+
+.button {
+  min-width: 50px;
+  padding: 20px 10px;
+  border: 4px solid white;
+  background: #000;
+  color: white;
+  border-radius: 10px;
+  margin: 70px 11px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.button:hover {
+  background: white;
+  color: black;
 }
 
 .key.active {
